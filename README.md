@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import linspace2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@esm/index.mjs';
+import linspace2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@v0.1.1-esm/index.mjs';
 ```
 
 #### linspace2d( start, stop, shape, colexicographic )
@@ -113,7 +113,7 @@ The function accepts the following arguments:
 <body>
 <script type="module">
 
-import linspace2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@esm/index.mjs';
+import linspace2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@v0.1.1-esm/index.mjs';
 
 var out = linspace2d( 0, 10, [ 2, 5 ], false );
 console.log( out );
