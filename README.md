@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-linspace2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@umd/browser.js' )
+linspace2d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var linspace2d = require( 'path/to/vendor/umd/array-base-linspace2d/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -135,7 +135,7 @@ The function accepts the following arguments:
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace2d@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
